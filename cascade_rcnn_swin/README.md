@@ -62,7 +62,7 @@ tools/dist_train.sh [path to swin*_cascade*.py] [number of GPUs]
 <img width="512" alt="image" src="https://user-images.githubusercontent.com/30382262/137625618-39656c65-ed13-42f0-8659-a3d7cd45f60c.jpg">  
 [네이버 커넥트재단 - 재활용 쓰레기 데이터셋 / CC BY 2.0]
 
-**[Custom] Pseudo Backgrounds**
+**[Custom] Pseudo Backgrounds**  
 <img width="512" alt="image" src="https://user-images.githubusercontent.com/30382262/142757738-4bd35704-3590-455d-8fcc-f7932e22591f.png">
 - 1. Execute **getBGpatches.py** to get Background patches(BG_patches) which will be used for make Pseudo Backgrounds.
 - 2. Execute **makePseudoBG.py** to get Pseudo Backgrounds that comprised with BG_patches.
