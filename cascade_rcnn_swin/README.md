@@ -66,8 +66,8 @@ tools/dist_train.sh [path to swin*_cascade*.py] [number of GPUs]
   
 ### [Custom] Pseudo Backgrounds  
 <img width="718" alt="image" src="https://user-images.githubusercontent.com/30382262/142757738-4bd35704-3590-455d-8fcc-f7932e22591f.png">
-1. Execute 'getBGpatches.py' to get Background patches(BG_patches) which will be used for make Pseudo Backgrounds. </br>
-2. Execute 'makePseudoBG.py' to get Pseudo Backgrounds that comprised with BG_patches.  
+1. Execute './utils/getBGpatches.py' to get Background patches(BG_patches) which will be used for make Pseudo Backgrounds. </br>
+2. Execute './utils/makePseudoBG.py' to get Pseudo Backgrounds that comprised with BG_patches.  
   
   
 
@@ -77,7 +77,7 @@ tools/dist_train.sh [path to swin*_cascade*.py] [number of GPUs]
 - The criteria for small and medium of mmdetection are 0~32 and 32~96px, respectively.  
   
   
-# Performances on Customized model & dataset  
+# Performance on Customized model & dataset  
 <img width="512" alt="image" src="https://user-images.githubusercontent.com/30382262/137626551-32ef2425-62b1-4604-af3a-ca763f270a91.png">  
 - Noticeable performance improvement was found in mAP_small.  
 <img width="512" alt="image" src="https://user-images.githubusercontent.com/30382262/142757063-33ec2cb9-2977-448d-aeca-3fbfaef50b89.jpg">  
