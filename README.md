@@ -1,8 +1,8 @@
 # object-detection-level2-cv-03
 
 # 0. Overview
-### cascade_rcnn_swin - (seungchan park: pseudo BGs.)  
-위의 디렉토리에서 박승찬의 작업물을 더 자세히 확인하실 수 있습니다.
+cascade_rcnn_swin (https://github.com/ark10806/object-detection-level2-cv-03/tree/main/cascade_rcnn_swin)  
+위의 디렉토리에서 **박승찬**의 작업물을 더 자세히 확인하실 수 있습니다.
 
 # 1. Introduction  
 <br/>
